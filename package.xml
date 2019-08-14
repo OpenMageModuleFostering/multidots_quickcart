@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Multidots_Quickcart</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="https://opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>This extension allows you to skip checkout page and the customer can buy product quickly by quick cart button.</summary>
+    <description>This extension allows you to skip checkout page and the customer can buy product quickly by quick cart button.</description>
+    <notes>This extension allows you to skip checkout page and the customer can buy product quickly by quick cart button.</notes>
+    <authors><author><name>Multidots</name><user>Multidots</user><email>magento@multidots.in</email></author></authors>
+    <date>2016-07-26</date>
+    <time>20:37:01</time>
+    <contents></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
