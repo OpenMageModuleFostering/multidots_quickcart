@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>Multidots_Quickcart</name>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
     <stability>stable</stability>
     <license uri="https://opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
     <channel>community</channel>
@@ -10,9 +10,9 @@
     <description>This extension allows you to skip checkout page and the customer can buy product quickly by quick cart button.</description>
     <notes>This extension allows you to skip checkout page and the customer can buy product quickly by quick cart button.</notes>
     <authors><author><name>Multidots</name><user>Multidots</user><email>magento@multidots.in</email></author></authors>
-    <date>2016-08-10</date>
-    <time>11:29:24</time>
-    <contents><target name="magecommunity"><dir name="Multidots"><dir name="Quickcart"><dir name="Block"><file name="Quickcart.php" hash="a7b7a8d49b5bb591b695c774bb880b36"/></dir><dir name="Helper"><file name="Data.php" hash="489b69b380c3fac4a474ded1169153e3"/></dir><dir name="controllers"><file name="IndexController.php" hash="1cf794f723db8215edd2744f0b88b59f"/></dir><dir name="etc"><file name="adminhtml.xml" hash="5b11d20dcc1decb67ab6957d41f21643"/><file name="config.xml" hash="02f8f260173e4e9813c8fbb653b46f13"/><file name="system.xml" hash="669d5831f5b2d79d1bacc0d49f88a64c"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><dir name="quickcart"><file name="js.phtml" hash="a58feb248e1484e853c874bd8743aeff"/><file name="quickcart.phtml" hash="eef496a930210595c8c1c8445d042e61"/></dir></dir><dir name="layout"><file name="quickcart.xml" hash="089a6c86e19103c8a43318e6630ad309"/></dir></dir></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="Multidots"><dir><dir name="Quickcart"><file name="msrp.js" hash="3c14f88cffaa31b65c6f8993540084f7"/><file name="quickcartcss.css" hash="e42b0adb1e070594006d2580bb6e649c"/></dir></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Multidots_Quickcart.xml" hash="20760a3797334a0000fe442af4a907a2"/></dir></target></contents>
+    <date>2016-08-22</date>
+    <time>06:27:41</time>
+    <contents><target name="magecommunity"><dir name="Multidots"><dir name="Quickcart"><dir name="Block"><file name="Quickcart.php" hash="a7b7a8d49b5bb591b695c774bb880b36"/></dir><dir name="Helper"><file name="Data.php" hash="489b69b380c3fac4a474ded1169153e3"/></dir><dir name="controllers"><file name="IndexController.php" hash="1cf794f723db8215edd2744f0b88b59f"/></dir><dir name="etc"><file name="adminhtml.xml" hash="5b11d20dcc1decb67ab6957d41f21643"/><file name="config.xml" hash="4005ab04bc157411ec1e41966d840f2b"/><file name="system.xml" hash="669d5831f5b2d79d1bacc0d49f88a64c"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><dir name="quickcart"><file name="js.phtml" hash="a58feb248e1484e853c874bd8743aeff"/><file name="quickcart.phtml" hash="eef496a930210595c8c1c8445d042e61"/></dir></dir><dir name="layout"><file name="quickcart.xml" hash="089a6c86e19103c8a43318e6630ad309"/></dir></dir></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="Multidots"><dir><dir name="Quickcart"><file name="msrp.js" hash="3c14f88cffaa31b65c6f8993540084f7"/><file name="quickcartcss.css" hash="e42b0adb1e070594006d2580bb6e649c"/></dir></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Multidots_Quickcart.xml" hash="d4153b86b6d56676df992af50700c5ef"/></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
 </package>
