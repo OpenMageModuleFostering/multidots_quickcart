@@ -1,0 +1,31 @@
+<script type="text/javascript">
+    /***
+     * Filename         : js.phtml
+     * Author           : Multidots
+     * Date             : 27/06/2016
+     * submitConfe      : initilize the form action with this variable. 
+     */
+    productAddToCartForm.submitConfe = function(button, url) {
+        if (this.validator.validate()) {
+            var form = this.form;
+            var oldUrl = form.action;
+
+            if (url) {
+                form.action = url;
+            }
+            var e = null;
+            try {
+                this.form.submit();
+            } catch (e) {
+            }
+            this.form.action = oldUrl;
+            if (e) {
+                throw e;
+            }
+
+            if (button && button != 'undefined') {
+                button.disabled = true;
+            }
+        }
+    }.bind(productAddToCartForm);
+</script>

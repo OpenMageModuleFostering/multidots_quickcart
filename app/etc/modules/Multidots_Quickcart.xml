@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Multidots_Quickcart>
+            <active>true</active>
+            <codePool>community</codePool>
+            <version>1.0.1</version>
+        </Multidots_Quickcart>
+    </modules>
+</config>

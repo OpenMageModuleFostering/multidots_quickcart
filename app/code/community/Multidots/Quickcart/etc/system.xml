@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<!--
+* <section>    : this tag specify the particular section for perform an action.
+* <groups>     : this tag define the tabs for the sections like a general tab.
+* Filename     : system.xml
+* Author       : Multidots
+* Date         : 27/06/2016
+-->
+<config>
+    <tabs>
+        <myconf translate="label">
+            <label>Multidots</label>
+            <sort_order>1</sort_order>
+        </myconf>
+    </tabs>
+    <sections>
+        <quickcartlist translate="label" module="adminhtml">
+            <label>Quick Cart</label>
+            <tab>myconf</tab>
+            <sort_order>10</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <general translate="label comment">
+                    <label>General</label>
+                    <isenabled>1</isenabled>
+                    <sort_order>50</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <boolean translate="label comment">
+                            <label>Enable Button</label>
+                            <comment>Select YES for enable module otherwise NO </comment>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>61</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </boolean>
+                        <button_name translate="Button Name">
+                            <label>Set Button Title</label>
+                            <comment>Set button title here for disaply text</comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>62</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </button_name>
+                        <redirection translate="Redirection Option">
+                            <label>Set Redirection is</label>
+                            <comment>Select Enable for redirect on checkout page otherwise Disable </comment>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>63</sort_order>
+                            <source_model>adminhtml/system_config_source_enabledisable</source_model>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </redirection>
+                    </fields>
+                </general>
+            </groups>
+        </quickcartlist>
+    </sections>
+</config>

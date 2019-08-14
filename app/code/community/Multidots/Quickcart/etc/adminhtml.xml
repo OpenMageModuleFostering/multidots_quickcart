@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!--
+ * This structure define the new quickcart extension tab in admin configuration.
+ * Filename         : AdminHtml.xml
+ * Author           : Multidots
+ * Date             : 27/06/2016
+-->
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <quickcartlist>
+                                        <title>quick cart list</title> <!-- Used in resources tree -->
+                                    </quickcartlist>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

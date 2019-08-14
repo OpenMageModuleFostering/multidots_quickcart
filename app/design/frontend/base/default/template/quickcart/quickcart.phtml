@@ -1,0 +1,18 @@
+<?php
+/* * *
+ * $status - it is check the module is enable or not.
+ * $buttonTitle - This variable is get the button title from admin configuration.
+ * $product->getTypeId() - This variable is check the product type is simple or not.
+ * Filename         : quickview.phtml
+ * Author           : Multidots
+ * Date             : 27/06/2016
+ */
+?>
+<?php $status = Mage::helper('quickcart/data')->isEnable(); ?>
+<?php $buttonTitle = Mage::helper('quickcart/data')->getButtonTitle(); ?>
+<?php if ($status == true): ?>
+    <?php $product = Mage::registry('current_product'); ?>
+    <?php if ($product->getTypeId() == 'simple') : ?> 
+        <button onclick="productAddToCartForm.submitConfe(this, '<?php echo $this->getUrl('quickcart/index/Product') ?>')" class="button btn-cart" title=" <?php echo $this->__($buttonTitle); ?>" type="button"><span><span> <?php echo $this->__($buttonTitle); ?></span></span></button>
+    <?php endif; ?>
+<?php endif; ?>

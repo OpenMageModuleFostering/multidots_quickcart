@@ -1,0 +1,8 @@
+/* * *
+ * Filename         : quickcartcss.css
+ * Author           : Multidots
+ * Date             : 27/06/2016
+ * ** */
+
+.product-view .add-to-cart-buttons .button {margin-left: 0;}
+.product-view .add-to-box .btn-cart {margin-right:10px;}

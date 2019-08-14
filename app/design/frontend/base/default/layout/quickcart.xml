@@ -1,0 +1,28 @@
+<!--
+Author           : Multidots
+Date             : 27/06/2016
+FileName         : quickcart.xml
+Reference        : Here this file reference two files 
+1. template/quickcart.phtml for display button
+2. template/Quickcart/js.phtml for Js Support 
+-->
+<?xml version="1.0"?>   
+<layout version="1.0.0">    
+    <default>
+        <reference name="head">
+            <action method="addItem">
+                <type>skin_js</type>
+                <name>Multidots/Quickcart/msrp.js</name>
+            </action>
+        </reference>
+    </default>
+    <catalog_product_view>
+        <reference name="product.info.addtocart">
+            <block type="quickcart/quickcart" name="quickcart_quickcart" template="quickcart/quickcart.phtml"/>   
+        </reference>
+        <reference name="before_body_end">
+            <block type="quickcart/quickcart" name="quickcart_quickcart" template="quickcart/js.phtml"/>   
+        </reference>
+    </catalog_product_view>
+</layout>   
+

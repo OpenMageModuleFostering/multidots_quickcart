@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<!--
+ * This file specify the paths of module.
+ * <modules>    : This tag specify the module.
+ * <frontend>   : This tag display the blog/file in a fronend side.
+ * <modules>    : This tag specify the module.
+ * <modules>    : This tag specify the module.
+ * <layout>     : This tag specify the frontend design side quickcart.xml file.
+ * <translate>  : This tag specify the language csv file path for langage transaltion using diferent store.
+ * <global>     : This tag specift the path of bock and helper class.
+ * <default>    : This tag specify the default value for the button title textbox.
+ * Filename     : config.xml
+ * Author       : Multidots
+ * Date         : 27/06/2016
+-->
+<config>
+    <modules>
+        <Multidots_Quickcart>
+            <version>1.0.1</version>
+        </Multidots_Quickcart>
+    </modules>
+    <frontend>
+        <routers>
+            <quickcart>
+                <use>standard</use>
+                <args>
+                    <module>Multidots_Quickcart</module>
+                    <frontName>quickcart</frontName>
+                </args>
+            </quickcart>
+        </routers>
+        <layout>
+            <updates>
+                <quickcart>
+                    <file>quickcart.xml</file>
+                </quickcart>
+            </updates>
+        </layout>
+        <translate>
+            <modules>
+                <quickcart>
+                    <files>
+                        <default>Multidots_Quickcart.csv</default>
+                    </files>
+                </quickcart>
+            </modules>
+        </translate>
+    </frontend>
+    <global>
+        <helpers>
+            <quickcart>
+                <class>Multidots_Quickcart_Helper</class>
+            </quickcart>
+        </helpers>
+        <blocks>
+            <quickcart>
+                <class>Multidots_Quickcart_Block</class>
+            </quickcart>
+        </blocks>
+    </global>
+    <admin>
+        <routers>
+            <quickcart>
+                <use>admin</use>
+                <args>
+                    <module>Multidots_Quickcart</module>
+                    <frontName>admin_quickcart</frontName>
+                </args>
+            </quickcart>
+        </routers>
+    </admin>
+    <default>
+        <quickcart>
+            <general>
+                <text_field>Quickcart</text_field>
+            </general>
+        </quickcart>
+    </default>	
+</config> 
