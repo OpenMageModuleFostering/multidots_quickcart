@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Multidots_Quickcart",
+    "name": "OpenMageModuleFostering\/Multidots_Quickcart",
     "type": "magento-module",
     "license": "OSL-v3.0",
     "homepage": "",
     "description": "This extension allows you to skip checkout page and the customer can buy product quickly by quick cart button.",
     "authors": [
-    {
-        "name": "Multidots",
-        "email": "magento@multidots.in"
-    }
-],
+        {
+            "name": "Multidots",
+            "email": "magento@multidots.in"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
